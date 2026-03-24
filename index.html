@@ -1,1 +1,131 @@
-hello
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asana</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <button id="theme-toggle">💡 Lights</button>
+
+    <header class="container">
+      <button id="trickery">Asana</button>
+
+      <details id="toc-container">
+        <summary style="color: #657b83">🔗 Contents</summary>
+        <nav id="toc"></nav>
+      </details>
+    </header>
+
+    <main id="content" class="container"></main>
+
+    <script>
+      const content = document.getElementById("content");
+      const toc = document.getElementById("toc");
+
+      marked.use({
+        extensions: [
+          {
+            name: "highlight",
+            level: "inline",
+            start(src) {
+              return src.indexOf("==");
+            },
+            tokenizer(src) {
+              const rule = /^==([^=]+)==/;
+              const match = rule.exec(src);
+              if (match) {
+                return {
+                  type: "highlight",
+                  raw: match[0],
+                  text: match[1].trim(),
+                };
+              }
+            },
+            renderer(token) {
+              return `<mark>${token.text}</mark>`;
+            },
+          },
+        ],
+      });
+
+      // load markdown
+      fetch("asana.md")
+        .then((res) => res.text())
+        .then((md) => {
+          content.innerHTML = marked.parse(md);
+          setup();
+        });
+
+      function setup() {
+        const headings = content.querySelectorAll("h1, h2, h3, h4");
+
+        buildTOC(headings);
+        makeCollapsible();
+      }
+
+      function buildTOC(headings) {
+        toc.innerHTML =
+          "<ul>" +
+          [...headings]
+            .map((h) => {
+              const id = h.textContent.toLowerCase().replace(/\s+/g, "-");
+              h.id = id;
+
+              return `<li class="${h.tagName.toLowerCase()}">
+          <a href="#${id}">${h.textContent}</a>
+        </li>`;
+            })
+            .join("") +
+          "</ul>";
+      }
+
+      function makeCollapsible() {
+        const elements = [...content.children];
+        let current = null;
+
+        elements.forEach((el) => {
+          if (el.tagName === "H2") {
+            current = document.createElement("details");
+
+            const summary = document.createElement("summary");
+            summary.textContent = el.textContent;
+
+            current.appendChild(summary);
+            content.insertBefore(current, el);
+            el.remove();
+          } else if (current) {
+            current.appendChild(el);
+          }
+        });
+      }
+
+      // theme
+      const btn = document.getElementById("theme-toggle");
+
+      btn.onclick = () => {
+        document.body.classList.toggle("dark");
+        localStorage.setItem(
+          "theme",
+          document.body.classList.contains("dark") ? "dark" : "light",
+        );
+      };
+
+      if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark");
+      }
+    </script>
+  </body>
+</html>
