@@ -1,6 +1,6 @@
 # Surya Namaskar
 
-## Samasthiti / Tadasana
+## Samasthiti
 ![image](img/scorpio-pincha.svg)
 
 _Samasthiti (Ashtanga), Tadasana (Iyengar). "Equal standing pose"._
@@ -52,8 +52,8 @@ Rounded spine.
 ### Modifications
 Hands on shins/thighs.
 
-## Plank
-![image](img/chaturanga.svg)
+## High Plank
+![image]()
 
 ### Benefit
 Core and shoulder stability.
@@ -301,6 +301,7 @@ Strap or wall.
 ![image](img/padangustasana-a.svg)
 
 *Extended Hand-to-Big-Toe Pose.*
+
 *A – Standing, B – Twisted, C – Folding over*
 ### Benefit
 Hamstrings and balance.
@@ -311,11 +312,12 @@ Rounding.
 ### Modifications
 Strap.
 
-# Forward Folds (Standing & Seated)
+# Forward Folds
 
 ## Prasarita Padottanasana A/B/C/D
 
 *”Wide Stance Forward Bend”*
+
 *A – hands down, B – hands on hips, C – bind back, D – grab toes*
 ### Benefit
 Inner legs.
@@ -392,6 +394,10 @@ Feet stay on the ground. Feet on blocks.
 ### Taking it further
 Drop to tripod headstand. From tripod headstand to chaturanga.
 
+## Side Crow
+
+Add more info here about that
+
 ## Tittibhasana
 
 _Firefly_
@@ -443,6 +449,7 @@ Dumping weight to neck. Banana back.
 Wall.
 
 ## Pincha Mayurasana
+![img](/img/scorpio-pincha.svg)
 
 _Peacock feather pose_
 ### Benefit
