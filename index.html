@@ -6,7 +6,6 @@
     <title>Asana</title>
 
     <link rel="stylesheet" href="style.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,22 +17,13 @@
   </head>
 
   <body>
+    <button id="menu-toggle">Asana</button>
     <button id="theme-toggle">💡 Lights</button>
-
-    <header class="container">
-      <button id="trickery">Asana</button>
-
-      <details id="toc-container">
-        <summary style="color: #657b83">🔗 Contents</summary>
-        <nav id="toc"></nav>
-      </details>
-    </header>
 
     <main id="content" class="container"></main>
 
     <script>
       const content = document.getElementById("content");
-      const toc = document.getElementById("toc");
 
       marked.use({
         extensions: [
@@ -46,6 +36,7 @@
             tokenizer(src) {
               const rule = /^==([^=]+)==/;
               const match = rule.exec(src);
+
               if (match) {
                 return {
                   type: "highlight",
@@ -61,58 +52,145 @@
         ],
       });
 
-      // load markdown
       fetch("asana.md")
         .then((res) => res.text())
         .then((md) => {
           content.innerHTML = marked.parse(md);
-          setup();
+          makeH2Dropdowns();
+          inlineSvgImages();
         });
 
-      function setup() {
-        const headings = content.querySelectorAll("h1, h2, h3, h4");
-
-        buildTOC(headings);
-        makeCollapsible();
+      function slugify(text) {
+        return text
+          .toLowerCase()
+          .trim()
+          .replace(/[^\w\s-]/g, "")
+          .replace(/\s+/g, "-");
       }
 
-      function buildTOC(headings) {
-        toc.innerHTML =
-          "<ul>" +
-          [...headings]
-            .map((h) => {
-              const id = h.textContent.toLowerCase().replace(/\s+/g, "-");
-              h.id = id;
-
-              return `<li class="${h.tagName.toLowerCase()}">
-          <a href="#${id}">${h.textContent}</a>
-        </li>`;
-            })
-            .join("") +
-          "</ul>";
+      function isImageParagraph(el) {
+        return (
+          el.tagName === "P" &&
+          el.children.length === 1 &&
+          el.firstElementChild &&
+          el.firstElementChild.tagName === "IMG"
+        );
       }
 
-      function makeCollapsible() {
+      function makeH2Dropdowns() {
         const elements = [...content.children];
-        let current = null;
+        const fragment = document.createDocumentFragment();
+
+        let currentH1Section = null;
+        let currentDropdown = null;
+        let currentText = null;
+        let currentMedia = null;
 
         elements.forEach((el) => {
+          if (el.tagName === "H1") {
+            currentH1Section = document.createElement("section");
+            currentH1Section.className = "h1-section";
+            fragment.appendChild(currentH1Section);
+
+            currentH1Section.appendChild(el);
+            currentDropdown = null;
+            currentText = null;
+            currentMedia = null;
+            return;
+          }
+
           if (el.tagName === "H2") {
-            current = document.createElement("details");
+            const details = document.createElement("details");
+            details.className = "h2-dropdown";
 
             const summary = document.createElement("summary");
             summary.textContent = el.textContent;
+            summary.id = el.id || slugify(el.textContent);
 
-            current.appendChild(summary);
-            content.insertBefore(current, el);
-            el.remove();
-          } else if (current) {
-            current.appendChild(el);
+            const body = document.createElement("div");
+            body.className = "h2-body";
+
+            const text = document.createElement("div");
+            text.className = "h2-text";
+
+            const media = document.createElement("div");
+            media.className = "h2-media";
+
+            body.appendChild(text);
+            body.appendChild(media);
+
+            details.appendChild(summary);
+            details.appendChild(body);
+
+            if (currentH1Section) {
+              currentH1Section.appendChild(details);
+            } else {
+              fragment.appendChild(details);
+            }
+
+            currentDropdown = details;
+            currentText = text;
+            currentMedia = media;
+            return;
+          }
+
+          if (currentDropdown) {
+            if (isImageParagraph(el)) {
+              currentMedia.appendChild(el);
+            } else {
+              currentText.appendChild(el);
+            }
+          } else if (currentH1Section) {
+            currentH1Section.appendChild(el);
+          } else {
+            fragment.appendChild(el);
           }
         });
+
+        content.innerHTML = "";
+        content.appendChild(fragment);
       }
 
-      // theme
+      async function inlineSvgImages() {
+        const imgs = [
+          ...content.querySelectorAll('.h2-media img[src$=".svg"]'),
+        ];
+
+        await Promise.all(
+          imgs.map(async (img) => {
+            try {
+              const res = await fetch(img.getAttribute("src"));
+              const svgText = await res.text();
+
+              const parser = new DOMParser();
+              const doc = parser.parseFromString(svgText, "image/svg+xml");
+              const svg = doc.documentElement;
+
+              if (!svg || svg.tagName.toLowerCase() !== "svg") return;
+
+              svg.classList.add("asana-svg");
+              svg.setAttribute("aria-label", img.getAttribute("alt") || "");
+              svg.removeAttribute("width");
+              svg.removeAttribute("height");
+
+              // Make plain unfilled paths inherit theme color
+              svg.querySelectorAll("path").forEach((path) => {
+                const hasClass = path.hasAttribute("class");
+                const hasFill = path.hasAttribute("fill");
+
+                if (!hasClass && !hasFill) {
+                  path.setAttribute("fill", "currentColor");
+                }
+              });
+
+              img.replaceWith(svg);
+            } catch (err) {
+              console.error("Could not inline SVG:", img.src, err);
+            }
+          }),
+        );
+      }
+
       const btn = document.getElementById("theme-toggle");
 
       btn.onclick = () => {
