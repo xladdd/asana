@@ -1,9 +1,12 @@
 # sequence 1
-## Samasthiti/Tadasana
+## Samasthiti / Tadasana
 ## virabhadrasana ii
-## urdhva dhanurasana — Wheel
+## urdhva dhanurasana 
+## adho mukha svanasana
+## plank
+## chaturanga dandasana
 
-## urdhva dhanurasana — Wheel
+## urdhva dhanurasana
 ## pose with no image
 
 # sequence 2
