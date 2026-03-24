@@ -1,6 +1,9 @@
 # Surya Namaskar
+
 ## Samasthiti/Tadasana
 ![image](img/scorpio-pincha.svg)
+
+Samasthiti (Ashtanga), Tadasana (Iyengar). "Equal standing pose".
 ### Benefit
 Strong backbend
 ### Alignment
@@ -11,29 +14,279 @@ Elbows flaring.
 Bridge prep.
 
 ## Urdhva hastasana
+![image](img/upward-salute.svg)
+
+Name
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Uttanasana
+![image](/img/full-forward-fold.svg)
+
+_Full forward fold. "Intense stretching pose"._
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Ardha uttanasana
+![image](/img/halfway-lift.svg)
+
+Halfway lift
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Plank
+![image](/img/chaturanga.svg)
+
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Chaturanga dandasana
+![image](/img/chaturanga.svg)
+
+XXX
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Urdhva mukha svanasana
+![image](/img/updog.svg)
+
+Upward facing dog
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Adho mukha svanasana
+![image](/img/downdog.svg)
+
+Downward facing dog
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
 
 # Warriors & Lunges
 ## Virabhadrasana I
-## Anjenyasana (High lunge)
+![image](/img/warrior-1.svg)
+
+Name
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+## Anjenyasana
+![image](/img/high-lunge.svg)
+
+Name
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+High lunge
 ## Baddha virabhadrasana
+![image]()
+
+Name
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Virabhadrasana II
+![image](/img/warrior-2.svg)
+
+Name
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Virabhadrasana III
+![image](/img/warrior-3.svg)
+
+Name
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
 
 # Standing / Balancing
 ## Ardha chandrasana
+![image](/img/halfmoon.svg)
+
+Half-moon
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Parivrtta ardha chandrasana
+![image](/img/rev-halfmoon.svg)
+
+Reverse half-moon
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Chapasana
+![image](/img/chapasana.svg)
+
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Parivrtta chapasana
+![image](/img/chapasana.svg)
+
+Reverse chapasana
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
 ## Natarajasana
-## Utthita hasta padangustasana 
+![image](/img/dancer.svg)
+
+Dancer
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+## Utthita hasta padangustasana A
 A Standing - B Side - C Folding over
-## Udrhva prasarita ekapadasana (Standing split)
+![image](/img/padangustasana-a.svg)
+
+Standing padangustasana
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+## Utthita hasta padangustasana B
+A Standing - B Side - C Folding over
+![image](/img/padangustasana-a.svg)
+
+Twisted padangustasana
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+## Utthita hasta padangustasana B
+Folding padangustasana
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+
+## Udrhva prasarita ekapadasana
+Standing split
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
+
+### xx
 
 # Standing poses (hips & side body) 
 ## Utthita trikosana
@@ -152,7 +405,7 @@ Strong shoulders, neutral neck | Focus | Banana back | Wall. HALaSANA — Plow
 Legs overhead | Calming, spinal stretch | Neck pressure | Blankets.
 
 # RESTORATIVE / NEUTRAL
-VĪRaSANA — Hero Pose
+## VĪRaSANA — Hero Pose
 Sit between heels | Quad/ankle stretch | Knee pain | Block.
 BALaSANA — Child’s Pose
 Hips to heels, forehead down | Rest | Knee pressure | Bolster/wide knees.
@@ -173,13 +426,6 @@ Asana
 
 Alignment | Benefits | Mistakes | Modifications
 
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
+
 
 
