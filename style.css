@@ -11,8 +11,7 @@
   --image-right-pad: 0.75rem;
   --image-max-height: 220px;
 
-  --sequence-thumb-width: 110px;
-  --sequence-thumb-height: 110px;
+  --sequence-thumb-size: 110px;
   --sequence-gap: 1rem;
 }
 
@@ -50,7 +49,6 @@ body {
   color: var(--text);
   padding: 0.7rem 1rem;
   cursor: pointer;
-  font-size: 0.95rem;
 }
 
 #menu-toggle {
@@ -65,21 +63,13 @@ body {
 
 /* ---------- LAYOUT ---------- */
 
-#content,
-main,
-.container,
-.wrapper {
-  max-width: var(--content-width);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #content {
-  width: min(100%, var(--content-width));
+  max-width: var(--content-width);
+  margin: 0 auto;
   padding: 5.5rem 4.5rem 4rem;
 }
 
-/* ---------- SEQUENCE ---------- */
+/* ---------- SEQUENCE (UPDATED) ---------- */
 
 #sequence-section {
   margin-bottom: 2.5rem;
@@ -87,12 +77,12 @@ main,
 
 .sequence-dropdown {
   background: var(--heading);
-  border: none;
   border-radius: 12px;
   padding: 0.8rem 1rem;
   margin: 1rem 0;
 }
 
+/* dropdown title */
 .sequence-dropdown summary {
   cursor: pointer;
   list-style: none;
@@ -107,18 +97,18 @@ main,
 .sequence-dropdown summary::before {
   content: "▸";
   margin-right: 0.5rem;
-  transition: transform 0.2s ease;
 }
 
 .sequence-dropdown[open] summary::before {
   transform: rotate(90deg);
 }
 
+/* rows */
 .sequence-rows {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: 0.9rem;
+  margin-top: 1rem;
 }
 
 .sequence-row {
@@ -127,45 +117,60 @@ main,
   gap: var(--sequence-gap);
 }
 
+/* pose buttons */
 .sequence-pose {
-  width: var(--sequence-thumb-width);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  background: transparent;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.sequence-pose-media {
-  width: var(--sequence-thumb-width);
-  height: var(--sequence-thumb-height);
-  background: var(--bg);
-  border-radius: 12px;
+  width: var(--sequence-thumb-size);
+  height: var(--sequence-thumb-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
-.sequence-pose-media img,
+/* REMOVE white boxes */
+.sequence-pose-media {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SVG now sits directly on red background */
 .sequence-pose-media svg {
+  width: 100%;
+  height: 100%;
   max-width: 100%;
   max-height: 100%;
+
+  color: var(--bg); /* 👈 white lines */
 }
 
+/* ensure paths use white */
+.sequence-pose-media svg path {
+  fill: currentColor;
+}
+
+/* hide labels completely */
 .sequence-pose-label {
-  text-align: center;
-  color: var(--bg);
-  font-size: 0.8rem;
+  display: none;
 }
 
+/* missing = big white X */
 .sequence-missing {
-  color: var(--heading);
-  font-size: 3rem;
+  color: var(--bg);
+  font-size: 2.5rem;
   font-weight: 700;
+}
+
+/* hover subtle lift */
+.sequence-pose:hover {
+  transform: translateY(-2px);
 }
 
 /* ---------- TYPOGRAPHY ---------- */
@@ -178,7 +183,6 @@ h5,
 h6,
 summary {
   color: var(--heading);
-  line-height: 1.2;
 }
 
 h1 {
@@ -192,22 +196,16 @@ h2 {
 }
 
 h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-top: 1rem;
   margin-bottom: 0.2rem;
 }
 
-p,
-ul,
-ol {
+p {
   margin: 0 0 1rem;
 }
 
-h3 + p {
-  margin-top: 0;
-}
-
-/* ---------- ASANA DROPDOWNS ---------- */
+/* ---------- ASANA ---------- */
 
 .h2-dropdown {
   background: var(--box);
@@ -217,90 +215,40 @@ h3 + p {
 }
 
 .h2-dropdown summary {
-  cursor: pointer;
-  list-style: none;
   font-weight: 700;
 }
 
-.h2-dropdown summary::-webkit-details-marker {
-  display: none;
-}
-
-.h2-dropdown summary::before {
-  content: "▸";
-  margin-right: 0.5rem;
-}
-
-.h2-dropdown[open] summary::before {
-  transform: rotate(90deg);
-}
-
-/* layout */
 .h2-body {
   display: flex;
   align-items: center;
   gap: var(--image-gap);
-  margin-top: 0.75rem;
 }
 
 .h2-text {
   flex: 1;
-  min-width: 0;
 }
 
-/* IMAGE CONTAINER */
 .h2-media {
   flex: 0 0 var(--image-width);
-  width: var(--image-width);
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding-right: var(--image-right-pad);
 }
 
-/* 🔥 FIXED IMAGE RULES */
+/* image fix */
 .h2-media img,
 .h2-media svg {
-  display: block;
   width: 100%;
-  height: auto;
   max-height: var(--image-max-height);
   object-fit: contain;
 }
 
-/* SVG color */
-.h2-media svg.asana-svg {
+/* svg color */
+.h2-media svg {
   color: var(--heading);
 }
 
-.h2-media svg.asana-svg path:not([class]) {
+.h2-media svg path:not([class]) {
   fill: currentColor;
-}
-
-/* ---------- LINKS ---------- */
-
-a {
-  color: var(--heading);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* ---------- CODE ---------- */
-
-code {
-  background: rgba(0, 0, 0, 0.05);
-  padding: 0.12rem 0.35rem;
-  border-radius: 6px;
-}
-
-pre {
-  background: var(--box);
-  padding: 1rem;
-  border-radius: 12px;
-  overflow-x: auto;
 }
 
 /* ---------- DARK MODE ---------- */
@@ -310,7 +258,6 @@ body.dark {
   --heading: #49a6ff;
   --box: #23262b;
   --bg: #111318;
-  --muted: #a0a7b4;
 }
 
 /* ---------- MOBILE ---------- */
@@ -320,36 +267,22 @@ body.dark {
     padding: 5rem 1rem 4rem;
   }
 
-  /* keep side-by-side */
   .h2-body {
     flex-direction: row;
-    align-items: center;
     gap: 1rem;
   }
 
   .h2-media {
     width: clamp(90px, 28vw, 120px);
-    flex: 0 0 auto;
-    padding-right: 0;
   }
 
   .h2-media img,
   .h2-media svg {
-    width: 100%;
     max-height: 140px;
   }
 
-  /* sequence scaling */
   .sequence-pose {
     width: 90px;
-  }
-
-  .sequence-pose-media {
-    width: 90px;
     height: 90px;
-  }
-
-  .sequence-pose-label {
-    font-size: 0.7rem;
   }
 }
