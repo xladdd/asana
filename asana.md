@@ -3,7 +3,7 @@
 ## Samasthiti/Tadasana
 ![image](img/scorpio-pincha.svg)
 
-Samasthiti (Ashtanga), Tadasana (Iyengar). "Equal standing pose".
+_Samasthiti (Ashtanga), Tadasana (Iyengar). "Equal standing pose"._
 ### Benefit
 Strong backbend
 ### Alignment
@@ -16,13 +16,13 @@ Bridge prep.
 ## Urdhva hastasana
 ![image](img/upward-salute.svg)
 
-Name
+_Upward salute_
 ### Benefit
-XXX
+External shoulder rotation.
 ### Alignment
 XXX
 ### Mistakes
-XXX
+Ribs flare.
 ### Modifications
 XXX
 
@@ -31,26 +31,26 @@ XXX
 
 _Full forward fold. "Intense stretching pose"._
 ### Benefit
-XXX
+Hamstring stretch.
 ### Alignment
 XXX
 ### Mistakes
-XXX
+Not engaging glutes. Not keeping back straight (activate lower belly).
 ### Modifications
-XXX
+Knee bend. Not going too far down. Hands on blocks possibly.
 
 ## Ardha uttanasana
 ![image](/img/halfway-lift.svg)
 
 Halfway lift
 ### Benefit
-XXX
+Transition to chaturanga.
 ### Alignment
-XXX
+Shoulders drawn back. Neutral spine. Knees in slight external rotation.
 ### Mistakes
-XXX
+Not drawing shoulders back.
 ### Modifications
-XXX
+Hands higher up.
 
 ## Plank
 ![image](/img/chaturanga.svg)
@@ -340,11 +340,10 @@ Hip misalignment.
 ### Modifications
 Blocks under hands.
 
-
 ## Prasarita padottanasana A/B/C/D
 A hands down, B hands on hips, C bind back, D grab toes | Hamstrings, calming | Weight in toes | Blocks/bent knees.
 
-# SEATED POSES
+# Seated
 ## Paschimottanasana — Seated Forward Fold Kleste
 ### Benefit
 Hamstring stretch.
@@ -362,7 +361,7 @@ Spine tall, twist ribs | Spinal mobility | Leaning back | Blanket.
 ## Janu sirsasana — Head-to-Knee Forward Fold
 One leg extended, fold from hips with long spine | Hamstrings + side-body stretch |Collapsing chest, rounding spine, twisting torso toward bent knee | Strap around foot, bend extended knee
 
-# HIP OPENERS & BACKBENDS
+# Hip Openers & Backbends
 ## Ekapada rajakapotasana — Pigeon Pose **??
 Front shin forward, hips square | Hip/glute release | Dumping in low back | Bolster.
 ## Kapotasana — Full Pigeon Backbend **??
@@ -391,7 +390,7 @@ ABC
 ## Ustrasana — Camel
 Lift chest, hips forward | Heart opener | Low-back compression | Block between thighs.
 
-# INVERSIONS + ARM BALANCES 
+# Inversions & Arm Balances
 ## BAKaSANA — Crow
 Knees on triceps, gaze forward | Arm balance strength | Looking down | Block.
 ## PIÑCHA MAYŪRaSANA — Forearm Stand
@@ -404,7 +403,7 @@ Forearms down, light on head | Strength + balance | Neck load | Wall/dolphin.
 Strong shoulders, neutral neck | Focus | Banana back | Wall. HALaSANA — Plow
 Legs overhead | Calming, spinal stretch | Neck pressure | Blankets.
 
-# RESTORATIVE / NEUTRAL
+# Restorative / Neutral
 ## VĪRaSANA — Hero Pose
 Sit between heels | Quad/ankle stretch | Knee pain | Block.
 BALaSANA — Child’s Pose
