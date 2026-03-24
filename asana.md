@@ -1,6 +1,6 @@
 # Surya Namaskar
 ## Samasthiti/Tadasana
-![image](/img/Artboard%204.svg)
+![image](img/Artboard%204.svg)
 ### Benefit
 Strong backbend
 ### Alignment
