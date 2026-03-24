@@ -1,270 +1,153 @@
 # Surya Namaskar
 
-## Samasthiti/Tadasana
+## Samasthiti / Tadasana
 ![image](img/scorpio-pincha.svg)
 
 _Samasthiti (Ashtanga), Tadasana (Iyengar). "Equal standing pose"._
 ### Benefit
-Strong backbend
+Postural awareness, grounding, neutral alignment.
 ### Alignment
-Straight arms/legs, chest liftschest liftschest liftschest liftschest liftschest lifts
-### Mistakes
-Elbows flaring.
-### Modifications
-Bridge prep.
 
-## Urdhva hastasana
+Feet rooted, legs active, pelvis neutral, ribs stacked over hips, crown lifts.
+### Mistakes
+Locking knees, flaring ribs, collapsing chest.
+### Modifications
+Slight knee bend, hands at heart.
+
+## Urdhva Hastasana
 ![image](img/upward-salute.svg)
 
-_Upward salute_
+_Upward Salute_
 ### Benefit
-External shoulder rotation.
+Shoulder flexion, length through side body.
 ### Alignment
-XXX
+Arms overhead, ribs contained, reach up without compressing low back.
 ### Mistakes
-Ribs flare.
+Ribs flare, lumbar compression.
 ### Modifications
-XXX
+Arms shoulder-width, slight bend in elbows.
 
 ## Uttanasana
 ![image](/img/full-forward-fold.svg)
 
 _Full forward fold. "Intense stretching pose"._
 ### Benefit
-Hamstring stretch.
+Hamstring stretch, posterior chain release.
 ### Alignment
-XXX
+Hinge from hips, spine long before folding.
 ### Mistakes
-Not engaging glutes. Not keeping back straight (activate lower belly).
+Rounding excessively. Disengaged legs.
 ### Modifications
-Knee bend. Not going too far down. Hands on blocks possibly.
+Bend knees, hands on blocks. Don’t go so far down.
 
-## Ardha uttanasana
+## Ardha Uttanasana
 ![image](/img/halfway-lift.svg)
 
-Halfway lift
+_Halfway Lift_
 ### Benefit
-Transition to chaturanga.
+Spinal extension, prep for load-bearing in chaturanga.
 ### Alignment
-Shoulders drawn back. Neutral spine. Knees in slight external rotation.
+Neutral spine, shoulders back, weight slightly forward.
 ### Mistakes
-Not drawing shoulders back.
+Rounded spine.
 ### Modifications
-Hands higher up.
+Hands on shins/thighs.
 
 ## Plank
 ![image](/img/chaturanga.svg)
 
 ### Benefit
-XXX
+Core + shoulder stability.
 ### Alignment
-XXX
+Straight line, shoulders over wrists.
 ### Mistakes
-XXX
+Sagging hips.
 ### Modifications
-XXX
+Knees down.
 
-## Chaturanga dandasana
+## Chaturanga Dandasana
 ![image](/img/chaturanga.svg)
 
-XXX
 ### Benefit
-XXX
+Upper body strength.
 ### Alignment
-XXX
+Elbows hug ribs, body in one line.
 ### Mistakes
-XXX
+Elbows flare, shoulders drop.
 ### Modifications
-XXX
+Knees down.
 
-## Urdhva mukha svanasana
+## Urdhva Mukha Svanasana
 ![image](/img/updog.svg)
 
-Upward facing dog
+_Upward Dog_
 ### Benefit
-XXX
+Backbend, chest opening.
 ### Alignment
-XXX
+Press hands, lift thighs, chest forward.
 ### Mistakes
-XXX
+Shoulders by ears.
 ### Modifications
-XXX
+Cobra.
 
-## Adho mukha svanasana
+## Adho Mukha Svanasana
 ![image](/img/downdog.svg)
 
-Downward facing dog
+_Downward Dog_
 ### Benefit
-XXX
+Posterior chain length.
 ### Alignment
-XXX
+Hips up/back, spine long.
 ### Mistakes
-XXX
+Rounded back.
 ### Modifications
-XXX
+Bend knees.
 
-# Warriors & Lunges
+# Lunges
+
+## Anjaneyasana
+![image](/img/high-lunge.svg)
+
+_High Lunge_
+### Benefit
+Hip flexor stretch.
+### Alignment
+Knee over ankle, hips forward.
+### Mistakes
+Low back compression.
+### Modifications
+Blocks.
+
 ## Virabhadrasana I
 ![image](/img/warrior-1.svg)
 
-Name
+_Warrior I_
 ### Benefit
-XXX
+Hip flexor stretch + strength.
 ### Alignment
-XXX
+Hips square.
 ### Mistakes
-XXX
+Overarching.
 ### Modifications
-XXX
-
-## Anjenyasana
-![image](/img/high-lunge.svg)
-
-Name
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-High lunge
-## Baddha virabhadrasana
-![image]()
-
-Name
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
+Shorten stance.
 
 ## Virabhadrasana II
 ![image](/img/warrior-2.svg)
 
-Name
+_Warrior II_
 ### Benefit
-XXX
+Leg strength, hip opening.
 ### Alignment
-XXX
+Knee tracks toes.
 ### Mistakes
-XXX
+Knee collapse.
 ### Modifications
-XXX
+Reduce depth.
 
-## Virabhadrasana III
-![image](/img/warrior-3.svg)
+## Baddha virabhadrasana
+![image]()
 
-Name
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-# Standing / Balancing
-## Ardha chandrasana
-![image](/img/halfmoon.svg)
-
-Half-moon
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Parivrtta ardha chandrasana
-![image](/img/rev-halfmoon.svg)
-
-Reverse half-moon
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Chapasana
-![image](/img/chapasana.svg)
-
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Parivrtta chapasana
-![image](/img/chapasana.svg)
-
-Reverse chapasana
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Natarajasana
-![image](/img/dancer.svg)
-
-Dancer
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Utthita hasta padangustasana A
-A Standing - B Side - C Folding over
-![image](/img/padangustasana-a.svg)
-
-Standing padangustasana
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Utthita hasta padangustasana B
-A Standing - B Side - C Folding over
-![image](/img/padangustasana-a.svg)
-
-Twisted padangustasana
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
-
-## Utthita hasta padangustasana B
-Folding padangustasana
+_Humble warrior. “Bound warrior”._
 ### Benefit
 XXX
 ### Alignment
@@ -275,156 +158,490 @@ XXX
 XXX
 
 
-## Udrhva prasarita ekapadasana
-Standing split
-### Benefit
-XXX
-### Alignment
-XXX
-### Mistakes
-XXX
-### Modifications
-XXX
+## Utthita Parsvakonasana
+![image]()
 
-### xx
-
-# Standing poses (hips & side body) 
-## Utthita trikosana
+_Extended side angle_
 ### Benefit
-Hamstring/side stretch ??????
+Side body stretch.
 ### Alignment
-Hinge at hip, spine long. WHAT DOES THE HIP DO
-### Mistakes
-Hyperextension ?? in knee? reaching too far?
-### Modifications
-Block under hand.
-
-## Parivrtta trikonasana 
-### Benefit
-XXX detox twist?
-### Alignment
-Hips level, spine long. WHAT ABOUT HIP
-### Mistakes
-Rounding spine.
-### Modifications
-Block under hand.
-
-## Utthita parsvakonasana — Extended Side Angle
-### Benefit
-Hip opening. THIGH WORKS?
-### Alignment
-Knee over ankle. Knee points forward. Long side body. Palm faces down. 
+Long diagonal line. Knee over ankle. Knee points forward. Long side body. Palm faces down. 
 ### Mistakes
 Leaning forward. There should not be significant weight on lower hand. Fingers grazing the ground.
 ### Modifications
 Forearm on thigh. Knee down.
 
-## Parivrtta parsvakonasana — Revolved Side Angle
-Twist over leg | Strength/digestion | Heel lifting | Block.
+## Utthita Trikonasana
+
+_(Extended) Triangle_
 ### Benefit
-Strength/digestion? WHATS THE BENEFIT OF TWISTS?
+Hamstring + lateral stretch.
 ### Alignment
-XXX Should it be zahaknuty jako paka? Can be on tiptoes or rather foot W2? Should arms be open or closed?
+Hinge at hips, chest open. // spine long. WHAT DOES THE HIP DO
 ### Mistakes
-XXX
+Collapsing chest. //Hyperextension ?? in knee? reaching too far? 
+### Modifications
+Block.
+
+## Parivrtta Trikonasana
+
+_Revolved Triangle_
+### Benefit
+Twist.
+### Alignment
+Hips level. // spine long. WHAT ABOUT HIP
+### Mistakes
+Rounding spine.
+### Modifications
+Block under hand.
+
+## Parsvottanasana
+
+_Pyramid_
+### Benefit
+Hamstrings.
+### Alignment
+Square hips. Back straight.
+### Mistakes
+Twisting. Hip misalignment.
+### Modifications
+Blocks.
+
+## Parivrtta parsvakonasana
+
+_Revolved Side Angle_
+### Benefit
+// Strength/digestion? WHATS THE BENEFIT OF TWISTS?
+### Alignment
+// XXX Should it be zahaknuty jako paka? Can be on tiptoes or rather foot W2? Should arms be open or closed?
+### Mistakes
+Heel lifting.
 ### Modifications
 Blocks. Knee down. 
 
-## Parsvottanasana — Pyramid
+
+# Balancing
+
+## Virabhadrasana III
+![image](/img/warrior-3.svg)
+
+_Warrior III_
 ### Benefit
-Hamstring stretch.
+XXX
 ### Alignment
-Hips level, fold, back straight CHEST OPEN?
+XXX
 ### Mistakes
-Hip misalignment.
+XXX
 ### Modifications
-Blocks under hands.
+Looking forward, opening chest.
 
-## Prasarita padottanasana A/B/C/D
-A hands down, B hands on hips, C bind back, D grab toes | Hamstrings, calming | Weight in toes | Blocks/bent knees.
+## Ardha Chandrasana
+![image](/img/halfmoon.svg)
 
-# Seated
-## Paschimottanasana — Seated Forward Fold Kleste
+_Half-moon_
 ### Benefit
-Hamstring stretch.
+Balance + hip stability.
 ### Alignment
-Folding from hips.
+Stack hips.
 ### Mistakes
-Rounding the spine.
+Dropping chest.
 ### Modifications
-Use strap or bend knees.
+Block.
 
-## Upavista konasana — Wide-Legged Forward Fold
-Legs wide, spine long | Groin/hamstrings | Rounding spine | Sit on bolster.
-## Ardha matsyendrasana — Seated Twist
-Spine tall, twist ribs | Spinal mobility | Leaning back | Blanket.
-## Janu sirsasana — Head-to-Knee Forward Fold
-One leg extended, fold from hips with long spine | Hamstrings + side-body stretch |Collapsing chest, rounding spine, twisting torso toward bent knee | Strap around foot, bend extended knee
+## Natarajasana
+![image](/img/dancer.svg)
 
-# Hip Openers & Backbends
-## Ekapada rajakapotasana — Pigeon Pose **??
-Front shin forward, hips square | Hip/glute release | Dumping in low back | Bolster.
-## Kapotasana — Full Pigeon Backbend **??
-Knees hip-width | Deep chest opening | Low-back compression | Blocks.
-## Ananda balasana — Happy Baby
-Feet over knees, knees wide | Hip release | Pulling hard | Strap.
-## Setu bandhasana — Bridge
-Feet hip-width, lift pelvis | Back body strength | Knees splay | Block under sacrum.
-## Dhanurasana — Bow Pose
-Kick into hands | Quad/chest opening | Neck strain | Strap.
+_Dancer_
+### Benefit
+Backbend balance.
+### Alignment
+Lift chest, kick back.
+### Mistakes
+Lumbar compression.
+### Modifications
+Strap.
 
-## Urdhva dhanurasana — Wheel
+## Chapasana
+![image](/img/chapasana.svg)
+
+_Candycane_
+### Benefit
+Quad stretch + balance.
+### Alignment
+Open chest.
+### Mistakes
+Collapse.
+### Modifications
+Wall.
+
+## Parivrtta Ardha Chandrasana
+![image](/img/rev-halfmoon.svg)
+
+_Reverse half-moon_
+### Benefit
+Twist + balance.
+### Alignment
+Rotate torso.
+### Mistakes
+Instability.
+### Modifications
+Block.
+
+## Parivrtta chapasana
+![image](/img/chapasana.svg)
+
+_Reverse chapasana_
+### Benefit
+xxx
+### Alignment
+xxx
+### Mistakes
+xxx
+### Modifications
+xxx
+
+## Utthita Hasta Padangustasana A/B/C
+![image](/img/padangustasana-a.svg)
+
+*”Extended Hand-to-Big-Toe Pose”.* 
+*A – Standing, B – Twisted, C – Folding over*
+### Benefit
+Hamstrings + balance.
+### Alignment
+Spine tall.
+### Mistakes
+Rounding.
+### Modifications
+Strap.
+
+# Forward Folds (Standing & Seated)
+
+## Prasarita Padottanasana A/B/C/D
+
+*”Wide Stance Forward Bend”*
+*A – hands down, B – hands on hips, C – bind back, D – grab toes*
+### Benefit
+Inner legs.
+### Alignment
+Weight onto toes.
+### Mistakes
+Weight back.
+### Modifications
+Blocks. Bent knees.
+
+## Urdhva Prasarita Eka Padasana
+
+_Standing splits_
+### Benefit
+???
+### Alignment
+???
+### Mistakes
+???
+### Modifications
+???
+
+## Upavistha Konasana
+
+_Wide-Legged Forward Fold_
+### Benefit
+Inner thighs.
+### Alignment
+Spine long, legs wide.
+### Mistakes
+Rounding.
+### Modifications
+Sit elevated.
+
+## Paschimottanasana
+
+_Seated Forward Fold, kleště_
+### Benefit
+Hamstrings.
+### Alignment
+Fold from hips.
+### Mistakes
+Collapsing chest, rounding spine.
+### Modifications
+Strap or knee bend.
+
+## Janu Sirsasana
+
+_Head-to-Knee Forward Fold_
+### Benefit
+Hamstrings + asymmetry work.
+### Alignment
+One leg extended, fold from hips with long spine. Chest opening upwards.
+### Mistakes
+Collapsing chest, rounding spine, twisting torso toward bent knee
+### Modifications
+Bend knee. Strap.
+### Assist
+Step next to hip, press ankle in, instruct to press their entire back into your thigh. Their other foot should be active.
+
+# Arm Balances
+
+## Bakasana
+
+_Crow_
+### Benefit
+Arm strength.
+### Alignment
+Knees on triceps, gaze forward, lean forward.
+### Mistakes
+Looking down.
+### Modifications
+Feet stay on the ground. Feet on blocks.
+### Taking it further
+Drop to tripod headstand. From tripod headstand to chaturanga.
+
+## Tittibhasana
+
+_Firefly_
+### Benefit
+Core + arm strength. Hamstring stretch.
+### Alignment
+Sit on triceps first. Extend legs. Squeeze knees together and rotate internally.
+### Mistakes
+Low hips. Arms too much under knees.
+### Modifications
+Bent legs.
+
+# Inversions (Beginner → Advanced)
+
+## Salamba Sarvangasana
+
+_Supported shoulderstand, candle_
+### Benefit
+Inversion, calming.
+### Alignment
+Weight in shoulders.
+### Mistakes
+Neck pressure.
+### Modifications
+Blankets.
+
+## Halasana
+
+_Plow_
+### Benefit
+Spinal stretch. Calming.
+### Alignment
+Legs overhead.
+### Mistakes
+Neck strain.
+### Modifications
+Support feet.
+
+## Sirsasana
+
+_Headstand: tripod or supported_
+### Benefit
+Balance. Focus.
+### Alignment
+Light head, strong shoulders.
+### Mistakes
+Dumping weight to neck. Banana back.
+### Modifications
+Wall.
+
+## Pincha Mayurasana
+
+_Peacock feather pose_
+### Benefit
+Shoulder and core strength.
+### Alignment
+Press forearms. Shoulders over elbows. Hips over head.
+### Mistakes
+Elbow splay. Rib flare.
+### Modifications
+Wall.
+### Building towards it
+Wall-facing L-stand. Visualisation.
+
+## Adho Mukha Vrksasana
+
+_Handstand. ”Downward facing tree”._
+### Benefit
+Full-body strength. Balance.
+### Alignment
+Stacked body.
+### Mistakes
+Banana back.
+### Modifications
+Wall.
+
+# Backbends
+
+## Setu Bandhasana
+
+_Bridge_
+### Benefit
+Glutes + backbend. Back body strength.
+### Alignment
+Feet hip-width, lift pelvis. Press feet.
+### Mistakes
+Knees splay.
+### Modifications
+Block under sacrum for supported.
+### Taking it further
+Walk feet closer to head for a deeper bend.
+
+## Salabhasana
+
+_Locust_
+### Benefit
+Back strength.
+### Alignment
+Lift chest + legs.
+### Mistakes
+Neck strain: look slightly forward.
+### Modifications
+Blanket.
+
+
+## Dhanurasana
+
+_Bow_
+### Benefit
+Quad/chest opening.
+### Alignment
+Lying on the front. Kick into hands.
+### Mistakes
+Knees wide. Neck strain: look slightly forward.
+### Modifications
+Strap.
+
+## Ustrasana
+
+_Camel_
+### Benefit
+Heart opener.
+### Alignment
+Lift chest, hips forward
+### Mistakes
+Low-back compression. Think: reaching crown away from hips.
+### Modifications
+Block between thighs.
+
+## Urdhva Dhanurasana
 ![image](img/Urdhva-dhanurasana.svg)
+
+_Full wheel. ”Half bow”._
 ### Benefit
-Strong backbend
+Full backbend.
 ### Alignment
-Straight arms/legs, chest lifts
+Push evenly. Straight arms/legs, chest lifts.
 ### Mistakes
-Elbows flaring.
+Elbows flare.
 ### Modifications
-Bridge prep.
+Bridge.
 
-## Salabhasana — Locust
-Lift chest + legs | Back strength | Overlifing head | Blanket.
-ABC
-## Ustrasana — Camel
-Lift chest, hips forward | Heart opener | Low-back compression | Block between thighs.
+## Kapotasana
 
-# Inversions & Arm Balances
-## BAKaSANA — Crow
-Knees on triceps, gaze forward | Arm balance strength | Looking down | Block.
-## PIÑCHA MAYŪRaSANA — Forearm Stand
-Shoulders over elbows | Shoulder/core strength | Elbows splay | Strap.
-## ADHO MUKHA VrKsaSANA — Handstand
-Shoulders over wrists | Balance | Arching back | Wall.
-## saLAMBA sĪRṢaSANA A/B — Supported Headstand
-Forearms down, light on head | Strength + balance | Neck load | Wall/dolphin.
-## Sirsasana — Headstand (Tripod or Supported) 
-Strong shoulders, neutral neck | Focus | Banana back | Wall. HALaSANA — Plow
-Legs overhead | Calming, spinal stretch | Neck pressure | Blankets.
+_Full Pigeon Backbend_
+### Benefit
+Deep chest opening.
+### Alignment
+Knees hip-width
+### Mistakes
+Low-back compression
+### Modifications
+Blocks.
 
-# Restorative / Neutral
-## VĪRaSANA — Hero Pose
-Sit between heels | Quad/ankle stretch | Knee pain | Block.
-BALaSANA — Child’s Pose
-Hips to heels, forehead down | Rest | Knee pressure | Bolster/wide knees.
-sAVaSANA — Final Relaxation
-Neutral spine, relaxed body | Nervous system reset | Fidgeting | Props as needed.
+# Hip Openers
 
-Marjaryasana / Bitilasana – Cat/Cow
+## Ananda balasana
+
+_Happy Baby_
+### Benefit
+Hip release
+### Alignment
+Feet over knees, knees wide. Keep sacrum down if possible.
+### Mistakes
+Pulling hard. 
+### Modifications
+Strap.
+
+## Pigeon* 
+
+Note on naming: [actual “kapotasana” “pigeon pose”](https://en.wikipedia.org/wiki/Kapotasana) is a back bend. Hip-opening pigeon is a simplified version of Ekapada rajakapotasana, which is the King pigeon.
+
+## Mermaid*
+
+_Eka Pada Rajakapotasana II, or Naginyasana, "Serpent Queen Pose”._
+### Benefit
+“Entry-level" king pigeon variation. Heavy on the quad stretch.
+### Alignment
+Back foot is hooked in the elbow crease; hands usually clasp.
+### Mistakes
+???
+### Modifications
+???
+
+## Ekapada rajakapotasana
+
+_One-legged king pigeon pose._
+### Benefit
+Deep spinal extension. Full-body hoop.
+### Alignment
+Overhead reach to grab the back foot with one or both hands. Keep lower back open.
+### Mistakes
+???
+### Modifications
+Strap.
+### Assist
+Loop strap around foot. Student grabs strap and reaches arms all the way up. Then starts walking hands down the strap. Optionally, they can keep pressing into teacher’s thigh with the back foot while pressing into teacher’s hand on their lower back, which creates space in the lower back.
 
 
+# Neutral
+## Virasana
+
+_Hero Pose_
+### Benefit
+Quad/ankle stretch
+### Alignment
+Sit between heels
+### Mistakes
+Knee pain.
+### Modifications
+Sit on block.
 
 
+## Balasana
 
+_Child’s Pose_
+### Benefit
+Rest.
+### Alignment
+Hips to heels, forehead down.
+### Mistakes
+Knee pressure.
+### Modifications
+Bolster. Knees wide.
 
+## Marjaryasana / Bitilasana
 
+_Cat/Cow_
+### Benefit
+XXX
+### Alignment
+XXX
+### Mistakes
+XXX
+### Modifications
+XXX
 
+## Savasana
 
-Asana
-
-Alignment | Benefits | Mistakes | Modifications
-
-
-
-
+_Corpse Pose_
+### Benefit
+Nervous system reset.
+### Alignment
+Neutral spine, relaxed body.
+### Mistakes
+Fidgeting.
+### Modifications
+Props as needed for comfort.
+### Assists
+Rotate legs internally. Rotate biceps upward for shoulders/chest to open. Forearm stretch. Neck stretch. Adding props. Weighing palms down so they rotate outward.
