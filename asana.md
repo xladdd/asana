@@ -1,13 +1,15 @@
-# Core
+# Surya Namaskar
 ## Samasthiti/Tadasana
+![image](/img/Artboard%204.svg)
 ### Benefit
-XXX
+Strong backbend
 ### Alignment
-XXX
+Straight arms/legs, chest liftschest liftschest liftschest liftschest liftschest lifts
 ### Mistakes
-XXX
+Elbows flaring.
 ### Modifications
-XXX
+Bridge prep.
+
 ## Urdhva hastasana
 ## Uttanasana
 ## Ardha uttanasana
@@ -19,9 +21,9 @@ XXX
 # Warriors & Lunges
 ## Virabhadrasana I
 ## Anjenyasana (High lunge)
+## Baddha virabhadrasana
 ## Virabhadrasana II
 ## Virabhadrasana III
-## Baddha virabhadrasana
 
 # Standing / Balancing
 ## Ardha chandrasana
@@ -118,8 +120,18 @@ Feet over knees, knees wide | Hip release | Pulling hard | Strap.
 Feet hip-width, lift pelvis | Back body strength | Knees splay | Block under sacrum.
 ## Dhanurasana — Bow Pose
 Kick into hands | Quad/chest opening | Neck strain | Strap.
+
 ## Urdhva dhanurasana — Wheel
-Straight arms/legs, chest lifts | Strong backbend | Elbows flaring | Bridge prep.
+![image](/img/Urdhva-dhanurasana.svg)
+### Benefit
+Strong backbend
+### Alignment
+Straight arms/legs, chest lifts
+### Mistakes
+Elbows flaring.
+### Modifications
+Bridge prep.
+
 ## Salabhasana — Locust
 Lift chest + legs | Back strength | Overlifing head | Blanket.
 ABC
@@ -139,7 +151,7 @@ Forearms down, light on head | Strength + balance | Neck load | Wall/dolphin.
 Strong shoulders, neutral neck | Focus | Banana back | Wall. HALaSANA — Plow
 Legs overhead | Calming, spinal stretch | Neck pressure | Blankets.
 
-RESTORATIVE / NEUTRAL
+# RESTORATIVE / NEUTRAL
 VĪRaSANA — Hero Pose
 Sit between heels | Quad/ankle stretch | Knee pain | Block.
 BALaSANA — Child’s Pose
