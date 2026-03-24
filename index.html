@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="img/icon/icon192.ico" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/icon/icon192.ico" />
     <link rel="apple-touch-icon" href="img/icon/icon192.png" />
 
     <title>Asana</title>
@@ -24,190 +24,11 @@
     <button id="menu-toggle">Asana</button>
     <button id="theme-toggle">💡 Lights</button>
 
-    <main id="content" class="container"></main>
+    <main id="content" class="container">
+      <section id="asana-section"></section>
+      <section id="sequence-section"></section>
+    </main>
 
-    <script>
-      const content = document.getElementById("content");
-
-      marked.use({
-        extensions: [
-          {
-            name: "highlight",
-            level: "inline",
-            start(src) {
-              return src.indexOf("==");
-            },
-            tokenizer(src) {
-              const rule = /^==([^=]+)==/;
-              const match = rule.exec(src);
-
-              if (match) {
-                return {
-                  type: "highlight",
-                  raw: match[0],
-                  text: match[1].trim(),
-                };
-              }
-            },
-            renderer(token) {
-              return `<mark>${token.text}</mark>`;
-            },
-          },
-        ],
-      });
-
-      fetch("asana.md")
-        .then((res) => res.text())
-        .then((md) => {
-          content.innerHTML = marked.parse(md);
-          makeH2Dropdowns();
-          inlineSvgImages();
-        });
-
-      function slugify(text) {
-        return text
-          .toLowerCase()
-          .trim()
-          .replace(/[^\w\s-]/g, "")
-          .replace(/\s+/g, "-");
-      }
-
-      function isImageParagraph(el) {
-        return (
-          el.tagName === "P" &&
-          el.children.length === 1 &&
-          el.firstElementChild &&
-          el.firstElementChild.tagName === "IMG"
-        );
-      }
-
-      function makeH2Dropdowns() {
-        const elements = [...content.children];
-        const fragment = document.createDocumentFragment();
-
-        let currentH1Section = null;
-        let currentDropdown = null;
-        let currentText = null;
-        let currentMedia = null;
-
-        elements.forEach((el) => {
-          if (el.tagName === "H1") {
-            currentH1Section = document.createElement("section");
-            currentH1Section.className = "h1-section";
-            fragment.appendChild(currentH1Section);
-
-            currentH1Section.appendChild(el);
-            currentDropdown = null;
-            currentText = null;
-            currentMedia = null;
-            return;
-          }
-
-          if (el.tagName === "H2") {
-            const details = document.createElement("details");
-            details.className = "h2-dropdown";
-
-            const summary = document.createElement("summary");
-            summary.textContent = el.textContent;
-            summary.id = el.id || slugify(el.textContent);
-
-            const body = document.createElement("div");
-            body.className = "h2-body";
-
-            const text = document.createElement("div");
-            text.className = "h2-text";
-
-            const media = document.createElement("div");
-            media.className = "h2-media";
-
-            body.appendChild(text);
-            body.appendChild(media);
-
-            details.appendChild(summary);
-            details.appendChild(body);
-
-            if (currentH1Section) {
-              currentH1Section.appendChild(details);
-            } else {
-              fragment.appendChild(details);
-            }
-
-            currentDropdown = details;
-            currentText = text;
-            currentMedia = media;
-            return;
-          }
-
-          if (currentDropdown) {
-            if (isImageParagraph(el)) {
-              currentMedia.appendChild(el);
-            } else {
-              currentText.appendChild(el);
-            }
-          } else if (currentH1Section) {
-            currentH1Section.appendChild(el);
-          } else {
-            fragment.appendChild(el);
-          }
-        });
-
-        content.innerHTML = "";
-        content.appendChild(fragment);
-      }
-
-      async function inlineSvgImages() {
-        const imgs = [
-          ...content.querySelectorAll('.h2-media img[src$=".svg"]'),
-        ];
-
-        await Promise.all(
-          imgs.map(async (img) => {
-            try {
-              const res = await fetch(img.getAttribute("src"));
-              const svgText = await res.text();
-
-              const parser = new DOMParser();
-              const doc = parser.parseFromString(svgText, "image/svg+xml");
-              const svg = doc.documentElement;
-
-              if (!svg || svg.tagName.toLowerCase() !== "svg") return;
-
-              svg.classList.add("asana-svg");
-              svg.setAttribute("aria-label", img.getAttribute("alt") || "");
-              svg.removeAttribute("width");
-              svg.removeAttribute("height");
-
-              // Make plain unfilled paths inherit theme color
-              svg.querySelectorAll("path").forEach((path) => {
-                const hasClass = path.hasAttribute("class");
-                const hasFill = path.hasAttribute("fill");
-
-                if (!hasClass && !hasFill) {
-                  path.setAttribute("fill", "currentColor");
-                }
-              });
-
-              img.replaceWith(svg);
-            } catch (err) {
-              console.error("Could not inline SVG:", img.src, err);
-            }
-          }),
-        );
-      }
-
-      const btn = document.getElementById("theme-toggle");
-
-      btn.onclick = () => {
-        document.body.classList.toggle("dark");
-        localStorage.setItem(
-          "theme",
-          document.body.classList.contains("dark") ? "dark" : "light",
-        );
-      };
-
-      if (localStorage.getItem("theme") === "dark") {
-        document.body.classList.add("dark");
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
