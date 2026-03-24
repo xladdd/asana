@@ -1,6 +1,6 @@
 # Surya Namaskar
 ## Samasthiti/Tadasana
-![image](img/Artboard%204.svg)
+![image](img/scorpio-pincha.svg)
 ### Benefit
 Strong backbend
 ### Alignment
@@ -122,7 +122,7 @@ Feet hip-width, lift pelvis | Back body strength | Knees splay | Block under sac
 Kick into hands | Quad/chest opening | Neck strain | Strap.
 
 ## Urdhva dhanurasana — Wheel
-![image](/img/Urdhva-dhanurasana.svg)
+![image](img/Urdhva-dhanurasana.svg)
 ### Benefit
 Strong backbend
 ### Alignment
