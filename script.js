@@ -36,7 +36,7 @@ init();
 
 async function init() {
   const [asanaMd, sequenceMd] = await Promise.all([
-    fetch("asana.md").then((r) => r.text()),
+    fetch("/asana/asana.md").then((r) => r.text()),
     fetch("sequence.md")
       .then((r) => (r.ok ? r.text() : ""))
       .catch(() => ""),
