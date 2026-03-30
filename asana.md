@@ -102,6 +102,18 @@ Rounded back.
 ### Modifications
 Bend knees.
 
+## Utkatasana
+
+_Chair. "Fierce Pose"._
+### Benefit
+Leg strength, ankle and hip loading, postural endurance.
+### Alignment
+Feet hip-width or together, sit hips back and down, knees track over toes, weight slightly into heels, ribs contained, arms reach overhead without flaring.
+### Mistakes
+Knees collapsing inward, weight too far in toes, over-arching lower back, chest dropping forward.
+### Modifications
+Hands at heart, reduce depth, place block between thighs for tracking.o
+
 # Lunges
 
 ## Anjaneyasana
